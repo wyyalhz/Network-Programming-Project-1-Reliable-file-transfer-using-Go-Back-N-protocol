@@ -52,6 +52,11 @@ Each host uses one INI config file with these fields:
 - `InitSeqNo`: initial sequence number
 - `Timeout`: sender timeout in seconds
 
+In the default host configs for this submission:
+
+- `host1.ini` uses UDP port `40527`
+- `host2.ini` uses UDP port `40528`
+
 ## How to Run
 
 Open two terminals in the project directory.
