@@ -1,0 +1,8 @@
+label,log_path,role,file_size_bytes,data_size,sw_size,error_rate,lost_rate,timeout_sec,notes
+clean_sw1,logs/clean_sw1_sender.jsonl,sender,3145728,1024,1,0.0,0.0,0.5,window size comparison
+clean_sw4,logs/clean_sw4_sender.jsonl,sender,3145728,1024,4,0.0,0.0,0.5,window size comparison
+clean_sw8,logs/clean_sw8_sender.jsonl,sender,3145728,1024,8,0.0,0.0,0.5,window size comparison
+clean_timeout_03,logs/clean_timeout_03_sender.jsonl,sender,3145728,1024,8,0.0,0.0,0.3,timeout comparison
+clean_timeout_05,logs/clean_timeout_05_sender.jsonl,sender,3145728,1024,8,0.0,0.0,0.5,timeout comparison
+clean_datasize_512,logs/clean_datasize_512_sender.jsonl,sender,3145728,512,8,0.0,0.0,0.5,data size comparison
+clean_datasize_1024,logs/clean_datasize_1024_sender.jsonl,sender,3145728,1024,8,0.0,0.0,0.5,data size comparison

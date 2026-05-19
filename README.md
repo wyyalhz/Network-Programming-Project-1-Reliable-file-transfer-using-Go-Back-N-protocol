@@ -65,6 +65,49 @@ You can run the project in two ways:
 
 - Python source mode: use `python host.py ...`
 - Executable mode: use `dist\gbn_host.exe ...`
+- Double-click GUI mode: use `gbn_launcher.exe` after building the launcher
+
+## Double-Click GUI Launcher
+
+If you want to run the program by double-clicking instead of typing commands, use the GUI launcher in `gui_launcher.py`.
+
+It provides:
+
+- config file selection
+- mode selection: `send`, `recv`, `duplex`
+- file picker for the file to send
+- output directory picker
+- log path picker
+- optional `target-name`
+- a live output window that shows the same runtime messages as the console version
+
+### Run the GUI Launcher from Python
+
+```powershell
+python gui_launcher.py
+```
+
+### Build the GUI Launcher as a Windows EXE
+
+```powershell
+pyinstaller gbn_launcher.spec
+```
+
+This creates:
+
+- `dist\gbn_launcher.exe`
+
+The launcher is now an all-in-one EXE:
+
+- double-click `gbn_launcher.exe` to open the GUI
+- the same EXE also contains the host runtime internally
+- no separate `gbn_host.exe` is required when you submit only one EXE
+
+Then you can directly double-click `gbn_launcher.exe`, fill in the fields, and click `Start`.
+
+### Important Note
+
+`gbn_launcher.exe` solves the command-line problem by collecting the parameters in a window and then calling the built-in host runtime internally.
 
 ### 1. Start Host2 as receiver
 
@@ -196,6 +239,129 @@ For duplex logs, the script also outputs a `roles` object. This lets you inspect
 - `duplex_sender`
 - `duplex_receiver`
 - `channel`
+
+## Batch Experiment Comparison and Charts
+
+To compare multiple `SWSize`, `Timeout`, or `DataSize` settings, this repository now supports a simple batch-analysis workflow:
+
+1. Prepare one sender log for each experiment run.
+2. Record the experiment metadata in `experiment_matrix_template.csv` or your own CSV file.
+3. Run `analyze_log.py --batch ...` to export a summary CSV / JSON.
+4. If `matplotlib` is installed, the script also generates PNG charts automatically.
+
+Optional plotting dependency:
+
+```powershell
+python -m pip install matplotlib
+```
+
+### Batch Experiment CSV Format
+
+Use `experiment_matrix_template.csv` as a template. The main columns are:
+
+- `label`: short name shown on the chart
+- `log_path`: sender or receiver log path
+- `role`: usually `sender`, `receiver`, `duplex_sender`, or `duplex_receiver`
+- `file_size_bytes`: source file size
+- `data_size`
+- `sw_size`
+- `error_rate`
+- `lost_rate`
+- `timeout_sec`
+- `notes`
+
+Example:
+
+```csv
+label,log_path,role,file_size_bytes,data_size,sw_size,error_rate,lost_rate,timeout_sec,notes
+clean_sw1,logs/clean_sw1_sender.jsonl,sender,3145728,1024,1,0.0,0.0,0.5,window size comparison
+clean_sw4,logs/clean_sw4_sender.jsonl,sender,3145728,1024,4,0.0,0.0,0.5,window size comparison
+clean_sw8,logs/clean_sw8_sender.jsonl,sender,3145728,1024,8,0.0,0.0,0.5,window size comparison
+```
+
+### Run Batch Analysis
+
+```powershell
+python analyze_log.py --batch experiment_matrix_template.csv --output-dir analysis_output
+```
+
+The batch analyzer writes:
+
+- `analysis_output/batch_summary.csv`
+- `analysis_output/batch_summary.json`
+- `analysis_output/throughput_Bps_vs_sw_size.png`
+- `analysis_output/retransmit_count_vs_sw_size.png`
+- `analysis_output/timeout_count_vs_sw_size.png`
+- and similar charts for `timeout_sec` and `data_size` when the CSV contains multiple values
+
+If `matplotlib` is not installed, the script still exports CSV and JSON summaries and prints a reminder.
+
+### Recommended Workflow for SWSize Comparison
+
+1. Copy the default configs and create one pair for each window size you want to test.
+2. Keep `DataSize`, `Timeout`, `LostRate`, and `ErrorRate` unchanged.
+3. Only change `SWSize`.
+4. Run one sender log per setting.
+5. Fill one CSV row per log.
+6. Run batch analysis and compare throughput / retransmission / timeout charts.
+
+Example config changes:
+
+```ini
+[DEFAULT]
+UDPPort = 40527
+PeerIP = 127.0.0.1
+PeerPort = 40528
+DataSize = 1024
+ErrorRate = 0.0
+LostRate = 0.0
+SWSize = 1
+InitSeqNo = 1
+Timeout = 0.5
+```
+
+Then repeat with `SWSize = 4`, `8`, `16`, and use different log names:
+
+```powershell
+python host.py --config configs/host2_sw1.ini --mode recv --output-dir received --log logs/clean_sw1_recv.jsonl
+python host.py --config configs/host1_sw1.ini --mode send --file test_3mb.bin --log logs/clean_sw1_sender.jsonl
+```
+
+### Recommended Workflow for Timeout Comparison
+
+1. Copy the default configs and create one pair for each timeout value.
+2. Keep `DataSize`, `SWSize`, `LostRate`, and `ErrorRate` unchanged.
+3. Only change `Timeout`.
+4. Use different log names for each run.
+5. Fill the CSV and rerun batch analysis.
+
+Example sender command:
+
+```powershell
+python host.py --config configs/host1_timeout_03.ini --mode send --file test_3mb.bin --log logs/clean_timeout_03_sender.jsonl
+```
+
+### Recommended Workflow for DataSize Comparison
+
+1. Copy the default configs and create one pair for each payload size.
+2. Keep `SWSize`, `Timeout`, `LostRate`, and `ErrorRate` unchanged.
+3. Only change `DataSize`.
+4. Make sure `DataSize <= 4096`.
+5. Fill the CSV and rerun batch analysis.
+
+Example sender command:
+
+```powershell
+python host.py --config configs/host1_datasize_512.ini --mode send --file test_3mb.bin --log logs/clean_datasize_512_sender.jsonl
+```
+
+### Suggested Comparison Sets
+
+- `SWSize`: `1`, `4`, `8`, `16`
+- `Timeout`: `0.1`, `0.3`, `0.5`, `1.0`
+- `DataSize`: `512`, `1024`, `2048`, `4096`
+
+For each comparison group, change only one parameter at a time. This makes the generated charts easier to interpret.
 
 ## Test Timeout and Retransmission
 
