@@ -150,6 +150,12 @@ The script reports:
 - total time
 - throughput
 
+For duplex logs, the script also outputs a `roles` object. This lets you inspect separate statistics for:
+
+- `duplex_sender`
+- `duplex_receiver`
+- `channel`
+
 ## Test Timeout and Retransmission
 
 You can use the loss-test configs to trigger Go-Back-N timeout retransmission:
@@ -206,6 +212,77 @@ After the transfer, verify MD5 again:
 ```powershell
 Get-FileHash test_3mb.bin -Algorithm MD5
 Get-FileHash received\test_3mb.bin -Algorithm MD5
+```
+
+## Duplex with Loss
+
+You can also run full-duplex transfer with packet loss simulation:
+
+Host2:
+
+```powershell
+python host.py --config configs/host2_loss.ini --mode duplex --file host2_data.bin --output-dir host2_received_loss --log logs/host2_duplex_loss.jsonl
+```
+
+Host1:
+
+```powershell
+python host.py --config configs/host1_loss.ini --mode duplex --file host1_data.bin --output-dir host1_received_loss --log logs/host1_duplex_loss.jsonl
+```
+
+Analyze:
+
+```powershell
+python analyze_log.py logs/host1_duplex_loss.jsonl
+python analyze_log.py logs/host2_duplex_loss.jsonl
+```
+
+In many runs, the `roles.duplex_sender` section should show:
+
+- `timeout_count > 0`
+- `retransmit_count > 0`
+
+The `roles.duplex_receiver` section often shows:
+
+- `out_of_order_drop_count > 0`
+
+## Duplex with Packet Corruption
+
+You can run full-duplex transfer with corruption simulation too:
+
+Host2:
+
+```powershell
+python host.py --config configs/host2_error.ini --mode duplex --file host2_data.bin --output-dir host2_received_error --log logs/host2_duplex_error.jsonl
+```
+
+Host1:
+
+```powershell
+python host.py --config configs/host1_error.ini --mode duplex --file host1_data.bin --output-dir host1_received_error --log logs/host1_duplex_error.jsonl
+```
+
+Analyze:
+
+```powershell
+python analyze_log.py logs/host1_duplex_error.jsonl
+python analyze_log.py logs/host2_duplex_error.jsonl
+```
+
+In many runs:
+
+- `roles.duplex_sender.corrupt_count > 0`
+- `roles.duplex_sender.timeout_count > 0`
+- `roles.duplex_sender.retransmit_count > 0`
+- `roles.duplex_receiver.corrupted_drop_count > 0`
+
+After either duplex experiment, verify MD5 on both directions:
+
+```powershell
+Get-FileHash host1_data.bin -Algorithm MD5
+Get-FileHash host2_received_loss\host1_data.bin -Algorithm MD5
+Get-FileHash host2_data.bin -Algorithm MD5
+Get-FileHash host1_received_loss\host2_data.bin -Algorithm MD5
 ```
 
 ## GBN Behavior in This Version

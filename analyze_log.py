@@ -2,38 +2,42 @@ from __future__ import annotations
 
 import argparse
 import json
+from collections import Counter
 from pathlib import Path
 
 
 TYPE_DATA = 2
 
 
-def analyze(log_path: str | Path) -> dict[str, float | int]:
-    records = []
+def load_records(log_path: str | Path) -> list[dict[str, object]]:
+    records: list[dict[str, object]] = []
     with open(log_path, "r", encoding="utf-8") as fp:
         for line in fp:
             line = line.strip()
             if line:
                 records.append(json.loads(line))
+    return records
 
-    send_count = sum(1 for r in records if r.get("event") == "send")
-    recv_count = sum(1 for r in records if r.get("event") == "recv")
-    timeout_count = sum(1 for r in records if r.get("event") == "timeout")
-    retransmit_count = sum(1 for r in records if r.get("event") == "retransmit")
-    drop_count = sum(1 for r in records if r.get("event") == "send_drop")
-    corrupt_count = sum(1 for r in records if r.get("event") == "send_corrupt")
-    ack_count = sum(1 for r in records if r.get("event") == "ack_sent")
-    ack_received_count = sum(1 for r in records if r.get("event") == "ack_received")
-    out_of_order_drop_count = sum(1 for r in records if r.get("event") == "discard_out_of_order")
-    corrupted_drop_count = sum(1 for r in records if r.get("event") == "discard_corrupted")
-    malformed_recv_count = sum(1 for r in records if r.get("event") == "recv_malformed")
-    window_advance_count = sum(1 for r in records if r.get("event") == "window_advanced")
+
+def summarize_records(records: list[dict[str, object]]) -> dict[str, float | int]:
+    event_counts = Counter(r.get("event") for r in records)
+    send_count = event_counts["send"]
+    recv_count = event_counts["recv"]
+    timeout_count = event_counts["timeout"]
+    retransmit_count = event_counts["retransmit"]
+    drop_count = event_counts["send_drop"]
+    corrupt_count = event_counts["send_corrupt"]
+    ack_count = event_counts["ack_sent"]
+    ack_received_count = event_counts["ack_received"]
+    out_of_order_drop_count = event_counts["discard_out_of_order"]
+    corrupted_drop_count = event_counts["discard_corrupted"]
+    malformed_recv_count = event_counts["recv_malformed"]
+    window_advance_count = event_counts["window_advanced"]
     max_in_flight_count = max(
         (int(r.get("in_flight_count", 0)) for r in records if r.get("event") == "timeout"),
         default=0,
     )
     total_pdu = send_count + recv_count + drop_count + corrupt_count
-
     transfer_record = next(
         (
             r
@@ -76,6 +80,20 @@ def analyze(log_path: str | Path) -> dict[str, float | int]:
         "total_time_sec": round(total_time, 6),
         "throughput_Bps": round(throughput, 2),
     }
+
+
+def analyze(log_path: str | Path) -> dict[str, object]:
+    records = load_records(log_path)
+    summary: dict[str, object] = summarize_records(records)
+
+    role_names = sorted({str(r.get("role")) for r in records if r.get("role")})
+    per_role: dict[str, dict[str, float | int]] = {}
+    for role in role_names:
+        role_records = [r for r in records if r.get("role") == role]
+        per_role[role] = summarize_records(role_records)
+
+    summary["roles"] = per_role
+    return summary
 
 
 def main() -> None:
