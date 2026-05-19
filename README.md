@@ -56,16 +56,33 @@ Each host uses one INI config file with these fields:
 
 Open two terminals in the project directory.
 
+You can run the project in two ways:
+
+- Python source mode: use `python host.py ...`
+- Executable mode: use `dist\gbn_host.exe ...`
+
 ### 1. Start Host2 as receiver
 
 ```powershell
 python host.py --config configs/host2.ini --mode recv --output-dir received --log logs/host2_recv.jsonl
 ```
 
+Executable version:
+
+```powershell
+dist\gbn_host.exe --config configs/host2.ini --mode recv --output-dir received --log logs/host2_recv.jsonl
+```
+
 ### 2. Start Host1 as sender
 
 ```powershell
 python host.py --config configs/host1.ini --mode send --file test_3mb.bin --log logs/host1_send.jsonl
+```
+
+Executable version:
+
+```powershell
+dist\gbn_host.exe --config configs/host1.ini --mode send --file test_3mb.bin --log logs/host1_send.jsonl
 ```
 
 ## Full-Duplex Transfer
@@ -81,10 +98,22 @@ Host2:
 python host.py --config configs/host2.ini --mode duplex --file host2_data.bin --output-dir host2_received --log logs/host2_duplex.jsonl
 ```
 
+Executable version:
+
+```powershell
+dist\gbn_host.exe --config configs/host2.ini --mode duplex --file host2_data.bin --output-dir host2_received --log logs/host2_duplex.jsonl
+```
+
 Host1:
 
 ```powershell
 python host.py --config configs/host1.ini --mode duplex --file host1_data.bin --output-dir host1_received --log logs/host1_duplex.jsonl
+```
+
+Executable version:
+
+```powershell
+dist\gbn_host.exe --config configs/host1.ini --mode duplex --file host1_data.bin --output-dir host1_received --log logs/host1_duplex.jsonl
 ```
 
 After both sides finish, compare:
@@ -132,6 +161,13 @@ If the two MD5 hashes are identical, the file transfer is correct.
 ```powershell
 python analyze_log.py logs/host1_send.jsonl
 python analyze_log.py logs/host2_recv.jsonl
+```
+
+Executable version:
+
+```powershell
+dist\analyze_log.exe logs/host1_send.jsonl
+dist\analyze_log.exe logs/host2_recv.jsonl
 ```
 
 The script reports:
@@ -237,6 +273,13 @@ python analyze_log.py logs/host1_duplex_loss.jsonl
 python analyze_log.py logs/host2_duplex_loss.jsonl
 ```
 
+Executable version:
+
+```powershell
+dist\analyze_log.exe logs/host1_duplex_loss.jsonl
+dist\analyze_log.exe logs/host2_duplex_loss.jsonl
+```
+
 In many runs, the `roles.duplex_sender` section should show:
 
 - `timeout_count > 0`
@@ -267,6 +310,13 @@ Analyze:
 ```powershell
 python analyze_log.py logs/host1_duplex_error.jsonl
 python analyze_log.py logs/host2_duplex_error.jsonl
+```
+
+Executable version:
+
+```powershell
+dist\analyze_log.exe logs/host1_duplex_error.jsonl
+dist\analyze_log.exe logs/host2_duplex_error.jsonl
 ```
 
 In many runs:
