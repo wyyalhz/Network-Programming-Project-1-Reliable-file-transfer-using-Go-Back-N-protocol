@@ -41,8 +41,9 @@ class GBNReceiver:
         received = bytearray()
         out_path: Path | None = None
         expected_md5 = ""
+        expected_filesize = 0
         transfer_started_at = time.time()
-        next_report_bytes = 256 * 1024
+        next_report_percent = 10
 
         while True:
             pdu, is_valid, _ = channel.recv_data(timeout=None)
@@ -94,6 +95,7 @@ class GBNReceiver:
                 meta = json.loads(pdu.data.decode("utf-8"))
                 out_path = output_dir / meta["filename"]
                 expected_md5 = meta["md5"]
+                expected_filesize = int(meta["filesize"])
                 if self.reporter is not None:
                     self.reporter.info(
                         f"[{role}] Start receiving {meta['filename']} "
@@ -101,11 +103,16 @@ class GBNReceiver:
                     )
             elif pdu.pdu_type == TYPE_DATA:
                 received.extend(pdu.data)
-                if self.reporter is not None and len(received) >= next_report_bytes:
+                if (
+                    self.reporter is not None
+                    and expected_filesize > 0
+                    and (len(received) * 100) // expected_filesize >= next_report_percent
+                ):
                     self.reporter.info(
-                        f"[{role}] Received {len(received)} bytes"
+                        f"[{role}] Receive progress {min(100, (len(received) * 100) // expected_filesize)}% "
+                        f"({len(received)}/{expected_filesize} bytes)"
                     )
-                    next_report_bytes += 256 * 1024
+                    next_report_percent += 10
             elif pdu.pdu_type == TYPE_END:
                 if out_path is None:
                     raise RuntimeError("END received before START")

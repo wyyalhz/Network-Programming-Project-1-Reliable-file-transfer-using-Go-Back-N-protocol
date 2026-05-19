@@ -1,0 +1,32 @@
+[host] Mode=duplex, local_port=9002, peer=127.0.0.1:9001
+[duplex_sender] Start sending host2_small.bin with 18 PDUs, window=8, timeout=0.5s
+[duplex_sender] Timeout round 1, retransmit 8 in-flight PDUs from seq 1
+[duplex_sender] Timeout round 2, retransmit 8 in-flight PDUs from seq 1
+[duplex_sender] Timeout round 3, retransmit 8 in-flight PDUs from seq 1
+[duplex_sender] Timeout round 4, retransmit 8 in-flight PDUs from seq 1
+[duplex_sender] Timeout round 5, retransmit 8 in-flight PDUs from seq 1
+[duplex_receiver] Start receiving host1_small.bin (16384 bytes)
+[duplex_receiver] Receive progress 12% (2048/16384 bytes)
+[duplex_receiver] Receive progress 25% (4096/16384 bytes)
+[duplex_receiver] Receive progress 31% (5120/16384 bytes)
+[duplex_receiver] Receive progress 43% (7168/16384 bytes)
+[duplex_receiver] Receive progress 50% (8192/16384 bytes)
+[duplex_receiver] Receive progress 62% (10240/16384 bytes)
+[duplex_receiver] Receive progress 75% (12288/16384 bytes)
+[duplex_sender] Timeout round 6, retransmit 8 in-flight PDUs from seq 1
+[duplex_receiver] Receive progress 81% (13312/16384 bytes)
+[duplex_receiver] Receive progress 93% (15360/16384 bytes)
+[duplex_receiver] Receive progress 100% (16384/16384 bytes)
+[duplex_receiver] Receive complete for host1_small.bin. md5_ok=True
+[duplex_sender] ACK advanced to seq 2, progress 11% (2/18 PDUs acknowledged)
+[duplex_sender] ACK advanced to seq 4, progress 22% (4/18 PDUs acknowledged)
+[duplex_sender] ACK advanced to seq 6, progress 33% (6/18 PDUs acknowledged)
+[duplex_sender] ACK advanced to seq 8, progress 44% (8/18 PDUs acknowledged)
+[duplex_sender] ACK advanced to seq 10, progress 55% (10/18 PDUs acknowledged)
+[duplex_sender] ACK advanced to seq 12, progress 66% (12/18 PDUs acknowledged)
+[duplex_sender] ACK advanced to seq 14, progress 77% (14/18 PDUs acknowledged)
+[duplex_sender] ACK advanced to seq 16, progress 88% (16/18 PDUs acknowledged)
+[duplex_sender] ACK advanced to seq 18, progress 100% (18/18 PDUs acknowledged)
+[duplex_sender] Send complete for host2_small.bin. timeout_rounds=6, retransmitted_pdus=48
+Duplex send complete. Received file saved to: host2_received_delay\host1_small.bin
+[host] Duplex mode finished.

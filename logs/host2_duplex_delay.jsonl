@@ -1,0 +1,317 @@
+{"time": 1779167757.869384, "event": "channel_udp_connreset_disable_failed", "role": "channel", "note": "invalid ioctl command 2550136844"}
+{"time": 1779167757.873854, "event": "channel_started", "role": "channel"}
+{"time": 1779167757.874703, "event": "channel_thread_started", "role": "channel"}
+{"time": 1779167757.879936, "event": "send", "role": "duplex_sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": false, "note": ""}
+{"time": 1779167757.88033, "event": "window_send", "role": "duplex_sender", "send_base_index": 0, "next_index": 0, "window_size": 8, "seq": 1, "pdu_type": 1}
+{"time": 1779167757.880135, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167757.881467, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167757.881891, "event": "window_send", "role": "duplex_sender", "send_base_index": 0, "next_index": 1, "window_size": 8, "seq": 2, "pdu_type": 2}
+{"time": 1779167757.881723, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167757.883169, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167757.883491, "event": "window_send", "role": "duplex_sender", "send_base_index": 0, "next_index": 2, "window_size": 8, "seq": 3, "pdu_type": 2}
+{"time": 1779167757.883352, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167757.884557, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167757.884974, "event": "window_send", "role": "duplex_sender", "send_base_index": 0, "next_index": 3, "window_size": 8, "seq": 4, "pdu_type": 2}
+{"time": 1779167757.884762, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167757.886578, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167757.88695, "event": "window_send", "role": "duplex_sender", "send_base_index": 0, "next_index": 4, "window_size": 8, "seq": 5, "pdu_type": 2}
+{"time": 1779167757.88676, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167757.888254, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167757.88861, "event": "window_send", "role": "duplex_sender", "send_base_index": 0, "next_index": 5, "window_size": 8, "seq": 6, "pdu_type": 2}
+{"time": 1779167757.8884, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167757.889735, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167757.890096, "event": "window_send", "role": "duplex_sender", "send_base_index": 0, "next_index": 6, "window_size": 8, "seq": 7, "pdu_type": 2}
+{"time": 1779167757.889906, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167757.891285, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167757.891669, "event": "window_send", "role": "duplex_sender", "send_base_index": 0, "next_index": 7, "window_size": 8, "seq": 8, "pdu_type": 2}
+{"time": 1779167757.891496, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167758.508726, "event": "timeout", "role": "duplex_sender", "timeout_round": 1, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.621862}
+{"time": 1779167758.509193, "event": "send", "role": "duplex_sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167758.509384, "event": "retransmit", "role": "duplex_sender", "timeout_round": 1, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779167758.509244, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167758.510413, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167758.51082, "event": "retransmit", "role": "duplex_sender", "timeout_round": 1, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779167758.51064, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167758.511901, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167758.51224, "event": "retransmit", "role": "duplex_sender", "timeout_round": 1, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779167758.51207, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167758.513439, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167758.513748, "event": "retransmit", "role": "duplex_sender", "timeout_round": 1, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779167758.513603, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167758.514797, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167758.515116, "event": "retransmit", "role": "duplex_sender", "timeout_round": 1, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779167758.514977, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167758.516214, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167758.516546, "event": "retransmit", "role": "duplex_sender", "timeout_round": 1, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779167758.516395, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167758.517602, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167758.51799, "event": "retransmit", "role": "duplex_sender", "timeout_round": 1, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779167758.517797, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167758.519086, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167758.519432, "event": "retransmit", "role": "duplex_sender", "timeout_round": 1, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779167758.519274, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.131577, "event": "timeout", "role": "duplex_sender", "timeout_round": 2, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.605786}
+{"time": 1779167759.13205, "event": "send", "role": "duplex_sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.132293, "event": "retransmit", "role": "duplex_sender", "timeout_round": 2, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779167759.132101, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.133574, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.133922, "event": "retransmit", "role": "duplex_sender", "timeout_round": 2, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779167759.133755, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.135282, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.135637, "event": "retransmit", "role": "duplex_sender", "timeout_round": 2, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779167759.135455, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.136692, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.137002, "event": "retransmit", "role": "duplex_sender", "timeout_round": 2, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779167759.136858, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.138164, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.13856, "event": "retransmit", "role": "duplex_sender", "timeout_round": 2, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779167759.138337, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.139761, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.140085, "event": "retransmit", "role": "duplex_sender", "timeout_round": 2, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779167759.139932, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.141187, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.141509, "event": "retransmit", "role": "duplex_sender", "timeout_round": 2, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779167759.14135, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.142571, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.142933, "event": "retransmit", "role": "duplex_sender", "timeout_round": 2, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779167759.142756, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.758604, "event": "timeout", "role": "duplex_sender", "timeout_round": 3, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.608976}
+{"time": 1779167759.759089, "event": "send", "role": "duplex_sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.75929, "event": "retransmit", "role": "duplex_sender", "timeout_round": 3, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779167759.759142, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.760506, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.760337, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.760952, "event": "retransmit", "role": "duplex_sender", "timeout_round": 3, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779167759.762407, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.762598, "event": "retransmit", "role": "duplex_sender", "timeout_round": 3, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779167759.76244, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.763673, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.764009, "event": "retransmit", "role": "duplex_sender", "timeout_round": 3, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779167759.763835, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.765123, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.765427, "event": "retransmit", "role": "duplex_sender", "timeout_round": 3, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779167759.765291, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.76651, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.766867, "event": "retransmit", "role": "duplex_sender", "timeout_round": 3, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779167759.766697, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.768064, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.768401, "event": "retransmit", "role": "duplex_sender", "timeout_round": 3, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779167759.768234, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167759.769479, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167759.769797, "event": "retransmit", "role": "duplex_sender", "timeout_round": 3, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779167759.76964, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167760.377553, "event": "timeout", "role": "duplex_sender", "timeout_round": 4, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.605458}
+{"time": 1779167760.378145, "event": "send", "role": "duplex_sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167760.37837, "event": "retransmit", "role": "duplex_sender", "timeout_round": 4, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779167760.378201, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167760.379978, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167760.380351, "event": "retransmit", "role": "duplex_sender", "timeout_round": 4, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779167760.380179, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167760.381797, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167760.382167, "event": "retransmit", "role": "duplex_sender", "timeout_round": 4, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779167760.381981, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167760.383763, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167760.384172, "event": "retransmit", "role": "duplex_sender", "timeout_round": 4, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779167760.383989, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167760.385304, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167760.385689, "event": "retransmit", "role": "duplex_sender", "timeout_round": 4, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779167760.385501, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167760.387038, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167760.387386, "event": "retransmit", "role": "duplex_sender", "timeout_round": 4, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779167760.387226, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167760.388783, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167760.389165, "event": "retransmit", "role": "duplex_sender", "timeout_round": 4, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779167760.389001, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167760.39031, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167760.390693, "event": "retransmit", "role": "duplex_sender", "timeout_round": 4, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779167760.390505, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167761.003419, "event": "timeout", "role": "duplex_sender", "timeout_round": 5, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.606253}
+{"time": 1779167761.004052, "event": "send", "role": "duplex_sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.004314, "event": "retransmit", "role": "duplex_sender", "timeout_round": 5, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779167761.004118, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167761.0058, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.006141, "event": "retransmit", "role": "duplex_sender", "timeout_round": 5, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779167761.005983, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167761.007679, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.008085, "event": "retransmit", "role": "duplex_sender", "timeout_round": 5, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779167761.007902, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167761.009235, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.009612, "event": "retransmit", "role": "duplex_sender", "timeout_round": 5, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779167761.009421, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167761.011078, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.011523, "event": "retransmit", "role": "duplex_sender", "timeout_round": 5, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779167761.011295, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167761.012879, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.013328, "event": "retransmit", "role": "duplex_sender", "timeout_round": 5, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779167761.013078, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167761.014752, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.015167, "event": "retransmit", "role": "duplex_sender", "timeout_round": 5, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779167761.014943, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167761.016771, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.017139, "event": "retransmit", "role": "duplex_sender", "timeout_round": 5, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779167761.016968, "event": "recv_reset", "role": "channel", "note": "[WinError 10054] \u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002"}
+{"time": 1779167761.599784, "event": "recv", "role": "channel", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "checksum_ok": true}
+{"time": 1779167761.600084, "event": "accept_in_order", "role": "duplex_receiver", "seq": 1, "pdu_type": 1}
+{"time": 1779167761.602005, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.602352, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 1, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.60261, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 1, "note": "cumulative_ack"}
+{"time": 1779167761.602839, "event": "accept_in_order", "role": "duplex_receiver", "seq": 2, "pdu_type": 2}
+{"time": 1779167761.603119, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 2, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.603352, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 2, "note": "cumulative_ack"}
+{"time": 1779167761.604875, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.60533, "event": "accept_in_order", "role": "duplex_receiver", "seq": 3, "pdu_type": 2}
+{"time": 1779167761.606449, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.607964, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.60916, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.609407, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 3, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.611093, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 3, "note": "cumulative_ack"}
+{"time": 1779167761.611377, "event": "accept_in_order", "role": "duplex_receiver", "seq": 4, "pdu_type": 2}
+{"time": 1779167761.610904, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.61178, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 4, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.613857, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 4, "note": "cumulative_ack"}
+{"time": 1779167761.614163, "event": "accept_in_order", "role": "duplex_receiver", "seq": 5, "pdu_type": 2}
+{"time": 1779167761.613677, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.616352, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 9, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.616452, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 5, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.616929, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 5, "note": "cumulative_ack"}
+{"time": 1779167761.617189, "event": "accept_in_order", "role": "duplex_receiver", "seq": 6, "pdu_type": 2}
+{"time": 1779167761.618497, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 6, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.618744, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 6, "note": "cumulative_ack"}
+{"time": 1779167761.61897, "event": "accept_in_order", "role": "duplex_receiver", "seq": 7, "pdu_type": 2}
+{"time": 1779167761.620652, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 10, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.620745, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 7, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.622583, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 7, "note": "cumulative_ack"}
+{"time": 1779167761.622859, "event": "accept_in_order", "role": "duplex_receiver", "seq": 8, "pdu_type": 2}
+{"time": 1779167761.62243, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 11, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.624433, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 8, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.624683, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 8, "note": "cumulative_ack"}
+{"time": 1779167761.624916, "event": "accept_in_order", "role": "duplex_receiver", "seq": 9, "pdu_type": 2}
+{"time": 1779167761.626558, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 12, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.626644, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 9, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.627099, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 9, "note": "cumulative_ack"}
+{"time": 1779167761.628605, "event": "accept_in_order", "role": "duplex_receiver", "seq": 10, "pdu_type": 2}
+{"time": 1779167761.628512, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 13, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.628934, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 10, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.629372, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 10, "note": "cumulative_ack"}
+{"time": 1779167761.62962, "event": "accept_in_order", "role": "duplex_receiver", "seq": 11, "pdu_type": 2}
+{"time": 1779167761.63045, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 11, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.630677, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 11, "note": "cumulative_ack"}
+{"time": 1779167761.6309, "event": "accept_in_order", "role": "duplex_receiver", "seq": 12, "pdu_type": 2}
+{"time": 1779167761.631175, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 12, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.632776, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 12, "note": "cumulative_ack"}
+{"time": 1779167761.633054, "event": "accept_in_order", "role": "duplex_receiver", "seq": 13, "pdu_type": 2}
+{"time": 1779167761.632609, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 14, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.633596, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 13, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.635202, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 13, "note": "cumulative_ack"}
+{"time": 1779167761.635488, "event": "accept_in_order", "role": "duplex_receiver", "seq": 14, "pdu_type": 2}
+{"time": 1779167761.63505, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 15, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.637434, "event": "timeout", "role": "duplex_sender", "timeout_round": 6, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.61804}
+{"time": 1779167761.63763, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 14, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.638019, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 14, "note": "cumulative_ack"}
+{"time": 1779167761.638245, "event": "accept_in_order", "role": "duplex_receiver", "seq": 15, "pdu_type": 2}
+{"time": 1779167761.637827, "event": "send", "role": "duplex_sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.640105, "event": "retransmit", "role": "duplex_sender", "timeout_round": 6, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779167761.63991, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 15, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.639733, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 16, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.641818, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.642, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 15, "note": "cumulative_ack"}
+{"time": 1779167761.643625, "event": "accept_in_order", "role": "duplex_receiver", "seq": 16, "pdu_type": 2}
+{"time": 1779167761.643319, "event": "retransmit", "role": "duplex_sender", "timeout_round": 6, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779167761.643157, "event": "recv", "role": "channel", "pdu_type": 2, "seq": 17, "ack": 0, "data_len": 1024, "checksum_ok": true}
+{"time": 1779167761.64515, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.645604, "event": "retransmit", "role": "duplex_sender", "timeout_round": 6, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779167761.645564, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 16, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.645411, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 1, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.646789, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.647434, "event": "retransmit", "role": "duplex_sender", "timeout_round": 6, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779167761.647284, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 2, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.64699, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 16, "note": "cumulative_ack"}
+{"time": 1779167761.649777, "event": "accept_in_order", "role": "duplex_receiver", "seq": 17, "pdu_type": 2}
+{"time": 1779167761.649555, "event": "recv", "role": "channel", "pdu_type": 4, "seq": 18, "ack": 0, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.649262, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.650553, "event": "retransmit", "role": "duplex_sender", "timeout_round": 6, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779167761.650502, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 17, "data_len": 0, "retransmission": false, "note": "cumulative_ack"}
+{"time": 1779167761.650812, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 3, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.652511, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.653166, "event": "retransmit", "role": "duplex_sender", "timeout_round": 6, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779167761.65269, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 17, "note": "cumulative_ack"}
+{"time": 1779167761.654969, "event": "accept_in_order", "role": "duplex_receiver", "seq": 18, "pdu_type": 4}
+{"time": 1779167761.654786, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.655429, "event": "retransmit", "role": "duplex_sender", "timeout_round": 6, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779167761.654743, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 4, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.655609, "event": "file_written", "role": "duplex_receiver", "file": "host2_received_delay\\host1_small.bin", "expected_md5": "28cd50892092e29c7f2c2fbfe4271c55", "actual_md5": "28cd50892092e29c7f2c2fbfe4271c55", "md5_ok": true, "elapsed": 3.778491}
+{"time": 1779167761.657295, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779167761.657905, "event": "retransmit", "role": "duplex_sender", "timeout_round": 6, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779167761.6581, "event": "ack_received", "role": "duplex_sender", "ack_seq": 1, "send_base_index": 0, "next_index": 8}
+{"time": 1779167761.658294, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 0, "new_send_base_index": 1, "ack_seq": 1, "in_flight_count": 7}
+{"time": 1779167761.657744, "event": "send", "role": "duplex_receiver", "pdu_type": 3, "seq": 0, "ack": 18, "data_len": 0, "retransmission": false, "note": "ack_for_end"}
+{"time": 1779167761.657515, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 5, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.660149, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 6, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.659857, "event": "ack_sent", "role": "duplex_receiver", "ack_seq": 18, "note": "ack_for_end"}
+{"time": 1779167761.659564, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 9, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167761.660902, "event": "window_send", "role": "duplex_sender", "send_base_index": 1, "next_index": 8, "window_size": 8, "seq": 9, "pdu_type": 2}
+{"time": 1779167761.661167, "event": "ack_received", "role": "duplex_sender", "ack_seq": 2, "send_base_index": 1, "next_index": 9}
+{"time": 1779167761.6614, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 1, "new_send_base_index": 2, "ack_seq": 2, "in_flight_count": 7}
+{"time": 1779167761.660419, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 7, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.663147, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 10, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167761.663438, "event": "window_send", "role": "duplex_sender", "send_base_index": 2, "next_index": 9, "window_size": 8, "seq": 10, "pdu_type": 2}
+{"time": 1779167761.663635, "event": "ack_received", "role": "duplex_sender", "ack_seq": 3, "send_base_index": 2, "next_index": 10}
+{"time": 1779167761.663842, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 2, "new_send_base_index": 3, "ack_seq": 3, "in_flight_count": 7}
+{"time": 1779167761.663254, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 8, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.665264, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 11, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167761.665701, "event": "window_send", "role": "duplex_sender", "send_base_index": 3, "next_index": 10, "window_size": 8, "seq": 11, "pdu_type": 2}
+{"time": 1779167761.665925, "event": "ack_received", "role": "duplex_sender", "ack_seq": 4, "send_base_index": 3, "next_index": 11}
+{"time": 1779167761.666136, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 3, "new_send_base_index": 4, "ack_seq": 4, "in_flight_count": 7}
+{"time": 1779167761.665481, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 9, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.667889, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 12, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167761.668223, "event": "window_send", "role": "duplex_sender", "send_base_index": 4, "next_index": 11, "window_size": 8, "seq": 12, "pdu_type": 2}
+{"time": 1779167761.668452, "event": "ack_received", "role": "duplex_sender", "ack_seq": 5, "send_base_index": 4, "next_index": 12}
+{"time": 1779167761.668674, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 4, "new_send_base_index": 5, "ack_seq": 5, "in_flight_count": 7}
+{"time": 1779167761.668031, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 10, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.670498, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 13, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167761.670874, "event": "window_send", "role": "duplex_sender", "send_base_index": 5, "next_index": 12, "window_size": 8, "seq": 13, "pdu_type": 2}
+{"time": 1779167761.67107, "event": "ack_received", "role": "duplex_sender", "ack_seq": 6, "send_base_index": 5, "next_index": 13}
+{"time": 1779167761.671309, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 5, "new_send_base_index": 6, "ack_seq": 6, "in_flight_count": 7}
+{"time": 1779167761.670708, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 11, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.673544, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 12, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.673564, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 14, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167761.674015, "event": "window_send", "role": "duplex_sender", "send_base_index": 6, "next_index": 13, "window_size": 8, "seq": 14, "pdu_type": 2}
+{"time": 1779167761.674225, "event": "ack_received", "role": "duplex_sender", "ack_seq": 7, "send_base_index": 6, "next_index": 14}
+{"time": 1779167761.674453, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 6, "new_send_base_index": 7, "ack_seq": 7, "in_flight_count": 7}
+{"time": 1779167761.67383, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 13, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.675774, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 15, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167761.676186, "event": "window_send", "role": "duplex_sender", "send_base_index": 7, "next_index": 14, "window_size": 8, "seq": 15, "pdu_type": 2}
+{"time": 1779167761.676368, "event": "ack_received", "role": "duplex_sender", "ack_seq": 8, "send_base_index": 7, "next_index": 15}
+{"time": 1779167761.676561, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 7, "new_send_base_index": 8, "ack_seq": 8, "in_flight_count": 7}
+{"time": 1779167761.676048, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 14, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.678293, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 16, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167761.678601, "event": "window_send", "role": "duplex_sender", "send_base_index": 8, "next_index": 15, "window_size": 8, "seq": 16, "pdu_type": 2}
+{"time": 1779167761.678824, "event": "ack_received", "role": "duplex_sender", "ack_seq": 9, "send_base_index": 8, "next_index": 16}
+{"time": 1779167761.679045, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 8, "new_send_base_index": 9, "ack_seq": 9, "in_flight_count": 7}
+{"time": 1779167761.678403, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 15, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.680202, "event": "send", "role": "duplex_sender", "pdu_type": 2, "seq": 17, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779167761.680633, "event": "window_send", "role": "duplex_sender", "send_base_index": 9, "next_index": 16, "window_size": 8, "seq": 17, "pdu_type": 2}
+{"time": 1779167761.68082, "event": "ack_received", "role": "duplex_sender", "ack_seq": 10, "send_base_index": 9, "next_index": 17}
+{"time": 1779167761.681, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 9, "new_send_base_index": 10, "ack_seq": 10, "in_flight_count": 7}
+{"time": 1779167761.68048, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 16, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.681487, "event": "send", "role": "duplex_sender", "pdu_type": 4, "seq": 18, "ack": 0, "data_len": 0, "retransmission": false, "note": ""}
+{"time": 1779167761.681691, "event": "window_send", "role": "duplex_sender", "send_base_index": 10, "next_index": 17, "window_size": 8, "seq": 18, "pdu_type": 4}
+{"time": 1779167761.681938, "event": "ack_received", "role": "duplex_sender", "ack_seq": 11, "send_base_index": 10, "next_index": 18}
+{"time": 1779167761.682172, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 10, "new_send_base_index": 11, "ack_seq": 11, "in_flight_count": 7}
+{"time": 1779167761.682461, "event": "ack_received", "role": "duplex_sender", "ack_seq": 12, "send_base_index": 11, "next_index": 18}
+{"time": 1779167761.682782, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 11, "new_send_base_index": 12, "ack_seq": 12, "in_flight_count": 6}
+{"time": 1779167761.681915, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 17, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.683286, "event": "ack_received", "role": "duplex_sender", "ack_seq": 13, "send_base_index": 12, "next_index": 18}
+{"time": 1779167761.683637, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 12, "new_send_base_index": 13, "ack_seq": 13, "in_flight_count": 5}
+{"time": 1779167761.683848, "event": "ack_received", "role": "duplex_sender", "ack_seq": 14, "send_base_index": 13, "next_index": 18}
+{"time": 1779167761.684048, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 13, "new_send_base_index": 14, "ack_seq": 14, "in_flight_count": 4}
+{"time": 1779167761.683446, "event": "recv", "role": "channel", "pdu_type": 3, "seq": 0, "ack": 18, "data_len": 0, "checksum_ok": true}
+{"time": 1779167761.684426, "event": "ack_received", "role": "duplex_sender", "ack_seq": 15, "send_base_index": 14, "next_index": 18}
+{"time": 1779167761.68471, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 14, "new_send_base_index": 15, "ack_seq": 15, "in_flight_count": 3}
+{"time": 1779167761.684903, "event": "ack_received", "role": "duplex_sender", "ack_seq": 16, "send_base_index": 15, "next_index": 18}
+{"time": 1779167761.685114, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 15, "new_send_base_index": 16, "ack_seq": 16, "in_flight_count": 2}
+{"time": 1779167761.68549, "event": "ack_received", "role": "duplex_sender", "ack_seq": 17, "send_base_index": 16, "next_index": 18}
+{"time": 1779167761.685716, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 16, "new_send_base_index": 17, "ack_seq": 17, "in_flight_count": 1}
+{"time": 1779167761.685951, "event": "ack_received", "role": "duplex_sender", "ack_seq": 18, "send_base_index": 17, "next_index": 18}
+{"time": 1779167761.68616, "event": "window_advanced", "role": "duplex_sender", "old_send_base_index": 17, "new_send_base_index": 18, "ack_seq": 18, "in_flight_count": 0}
+{"time": 1779167761.686511, "event": "transfer_complete", "role": "duplex_sender", "file": "host2_small.bin", "total_pdus": 18, "timeout_rounds": 6, "retransmitted_pdus": 48, "elapsed": 3.808804}

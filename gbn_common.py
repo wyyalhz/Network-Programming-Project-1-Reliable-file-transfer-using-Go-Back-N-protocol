@@ -3,11 +3,14 @@ from __future__ import annotations
 import queue
 import random
 import socket
+import sys
 import threading
 from typing import Optional
 
 from logger_utils import EventLogger
 from pdu import PDU, TYPE_ACK
+
+WINDOWS_SIO_UDP_CONNRESET = 0x9800000C
 
 
 class SharedGBNChannel:
@@ -31,6 +34,16 @@ class SharedGBNChannel:
         self._recv_thread: threading.Thread | None = None
 
     def start(self) -> None:
+        if sys.platform.startswith("win") and hasattr(self.sock, "ioctl"):
+            try:
+                self.sock.ioctl(WINDOWS_SIO_UDP_CONNRESET, False)
+                self.logger.log(event="channel_udp_connreset_disabled", role="channel")
+            except Exception as exc:
+                self.logger.log(
+                    event="channel_udp_connreset_disable_failed",
+                    role="channel",
+                    note=str(exc),
+                )
         self.sock.settimeout(0.2)
         self._running.set()
         self.logger.log(event="channel_started", role="channel")
@@ -110,6 +123,13 @@ class SharedGBNChannel:
             try:
                 try:
                     packet, addr = self.sock.recvfrom(8192)
+                except ConnectionResetError as exc:
+                    self.logger.log(
+                        event="recv_reset",
+                        role="channel",
+                        note=str(exc),
+                    )
+                    continue
                 except socket.timeout:
                     continue
                 except OSError:

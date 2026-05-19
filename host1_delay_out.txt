@@ -1,0 +1,26 @@
+[host] Mode=duplex, local_port=9001, peer=127.0.0.1:9002
+[duplex_sender] Start sending host1_small.bin with 18 PDUs, window=8, timeout=0.5s
+[duplex_sender] ACK advanced to seq 2, progress 11% (2/18 PDUs acknowledged)
+[duplex_sender] ACK advanced to seq 4, progress 22% (4/18 PDUs acknowledged)
+[duplex_sender] ACK advanced to seq 6, progress 33% (6/18 PDUs acknowledged)
+[duplex_sender] ACK advanced to seq 8, progress 44% (8/18 PDUs acknowledged)
+[duplex_receiver] Start receiving host2_small.bin (16384 bytes)
+[duplex_sender] ACK advanced to seq 10, progress 55% (10/18 PDUs acknowledged)
+[duplex_sender] ACK advanced to seq 12, progress 66% (12/18 PDUs acknowledged)
+[duplex_receiver] Receive progress 12% (2048/16384 bytes)
+[duplex_sender] ACK advanced to seq 14, progress 77% (14/18 PDUs acknowledged)
+[duplex_sender] ACK advanced to seq 16, progress 88% (16/18 PDUs acknowledged)
+[duplex_receiver] Receive progress 25% (4096/16384 bytes)
+[duplex_receiver] Receive progress 31% (5120/16384 bytes)
+[duplex_receiver] Receive progress 43% (7168/16384 bytes)
+[duplex_sender] ACK advanced to seq 18, progress 100% (18/18 PDUs acknowledged)
+[duplex_sender] Send complete for host1_small.bin. timeout_rounds=0, retransmitted_pdus=0
+[duplex_receiver] Receive progress 50% (8192/16384 bytes)
+[duplex_receiver] Receive progress 62% (10240/16384 bytes)
+[duplex_receiver] Receive progress 75% (12288/16384 bytes)
+[duplex_receiver] Receive progress 81% (13312/16384 bytes)
+[duplex_receiver] Receive progress 93% (15360/16384 bytes)
+[duplex_receiver] Receive progress 100% (16384/16384 bytes)
+[duplex_receiver] Receive complete for host2_small.bin. md5_ok=True
+Duplex send complete. Received file saved to: host1_received_delay\host2_small.bin
+[host] Duplex mode finished.

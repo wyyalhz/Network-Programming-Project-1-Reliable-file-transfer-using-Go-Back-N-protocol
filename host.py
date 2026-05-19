@@ -114,6 +114,8 @@ def main() -> None:
             raise errors[0]
         print(f"Duplex send complete. Received file saved to: {result['received']}")
         reporter.info("[host] Duplex mode finished.")
+    except KeyboardInterrupt:
+        reporter.info("[host] Interrupted by Ctrl+C, shutting down.")
     finally:
         channel.close()
 
