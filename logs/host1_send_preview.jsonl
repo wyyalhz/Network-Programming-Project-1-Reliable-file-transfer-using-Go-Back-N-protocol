@@ -1,0 +1,205 @@
+{"time": 1779166538.623033, "event": "channel_started", "role": "channel"}
+{"time": 1779166538.623758, "event": "channel_thread_started", "role": "channel"}
+{"time": 1779166538.624355, "event": "send", "role": "sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": false, "note": ""}
+{"time": 1779166538.624564, "event": "window_send", "role": "sender", "send_base_index": 0, "next_index": 0, "window_size": 8, "seq": 1, "pdu_type": 1}
+{"time": 1779166538.625719, "event": "send", "role": "sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779166538.625892, "event": "window_send", "role": "sender", "send_base_index": 0, "next_index": 1, "window_size": 8, "seq": 2, "pdu_type": 2}
+{"time": 1779166538.627184, "event": "send", "role": "sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779166538.627359, "event": "window_send", "role": "sender", "send_base_index": 0, "next_index": 2, "window_size": 8, "seq": 3, "pdu_type": 2}
+{"time": 1779166538.628397, "event": "send", "role": "sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779166538.628559, "event": "window_send", "role": "sender", "send_base_index": 0, "next_index": 3, "window_size": 8, "seq": 4, "pdu_type": 2}
+{"time": 1779166538.629603, "event": "send", "role": "sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779166538.629794, "event": "window_send", "role": "sender", "send_base_index": 0, "next_index": 4, "window_size": 8, "seq": 5, "pdu_type": 2}
+{"time": 1779166538.631374, "event": "send", "role": "sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779166538.631611, "event": "window_send", "role": "sender", "send_base_index": 0, "next_index": 5, "window_size": 8, "seq": 6, "pdu_type": 2}
+{"time": 1779166538.633345, "event": "send", "role": "sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779166538.633594, "event": "window_send", "role": "sender", "send_base_index": 0, "next_index": 6, "window_size": 8, "seq": 7, "pdu_type": 2}
+{"time": 1779166538.634732, "event": "send", "role": "sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": false, "note": ""}
+{"time": 1779166538.634913, "event": "window_send", "role": "sender", "send_base_index": 0, "next_index": 7, "window_size": 8, "seq": 8, "pdu_type": 2}
+{"time": 1779166539.242453, "event": "timeout", "role": "sender", "timeout_round": 1, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.617837}
+{"time": 1779166539.243041, "event": "send", "role": "sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.243282, "event": "retransmit", "role": "sender", "timeout_round": 1, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779166539.244535, "event": "send", "role": "sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.24474, "event": "retransmit", "role": "sender", "timeout_round": 1, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779166539.245861, "event": "send", "role": "sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.246042, "event": "retransmit", "role": "sender", "timeout_round": 1, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779166539.247208, "event": "send", "role": "sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.247428, "event": "retransmit", "role": "sender", "timeout_round": 1, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779166539.248597, "event": "send", "role": "sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.24883, "event": "retransmit", "role": "sender", "timeout_round": 1, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779166539.249873, "event": "send", "role": "sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.25004, "event": "retransmit", "role": "sender", "timeout_round": 1, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779166539.251137, "event": "send", "role": "sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.251317, "event": "retransmit", "role": "sender", "timeout_round": 1, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779166539.252534, "event": "send", "role": "sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.252764, "event": "retransmit", "role": "sender", "timeout_round": 1, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779166539.864108, "event": "timeout", "role": "sender", "timeout_round": 2, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.6111}
+{"time": 1779166539.864749, "event": "send", "role": "sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.864995, "event": "retransmit", "role": "sender", "timeout_round": 2, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779166539.866039, "event": "send", "role": "sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.866227, "event": "retransmit", "role": "sender", "timeout_round": 2, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779166539.867419, "event": "send", "role": "sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.867601, "event": "retransmit", "role": "sender", "timeout_round": 2, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779166539.868773, "event": "send", "role": "sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.868955, "event": "retransmit", "role": "sender", "timeout_round": 2, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779166539.869972, "event": "send", "role": "sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.870158, "event": "retransmit", "role": "sender", "timeout_round": 2, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779166539.871206, "event": "send", "role": "sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.871365, "event": "retransmit", "role": "sender", "timeout_round": 2, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779166539.872361, "event": "send", "role": "sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.872514, "event": "retransmit", "role": "sender", "timeout_round": 2, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779166539.873537, "event": "send", "role": "sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166539.873687, "event": "retransmit", "role": "sender", "timeout_round": 2, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779166540.483411, "event": "timeout", "role": "sender", "timeout_round": 3, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.609517}
+{"time": 1779166540.483979, "event": "send", "role": "sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166540.484214, "event": "retransmit", "role": "sender", "timeout_round": 3, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779166540.485347, "event": "send", "role": "sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166540.48554, "event": "retransmit", "role": "sender", "timeout_round": 3, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779166540.486572, "event": "send", "role": "sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166540.486732, "event": "retransmit", "role": "sender", "timeout_round": 3, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779166540.48772, "event": "send", "role": "sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166540.487871, "event": "retransmit", "role": "sender", "timeout_round": 3, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779166540.488847, "event": "send", "role": "sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166540.488997, "event": "retransmit", "role": "sender", "timeout_round": 3, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779166540.489987, "event": "send", "role": "sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166540.490158, "event": "retransmit", "role": "sender", "timeout_round": 3, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779166540.491168, "event": "send", "role": "sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166540.49133, "event": "retransmit", "role": "sender", "timeout_round": 3, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779166540.492331, "event": "send", "role": "sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166540.492483, "event": "retransmit", "role": "sender", "timeout_round": 3, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779166541.104958, "event": "timeout", "role": "sender", "timeout_round": 4, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.612272}
+{"time": 1779166541.105538, "event": "send", "role": "sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.105744, "event": "retransmit", "role": "sender", "timeout_round": 4, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779166541.106874, "event": "send", "role": "sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.107054, "event": "retransmit", "role": "sender", "timeout_round": 4, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779166541.108221, "event": "send", "role": "sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.108411, "event": "retransmit", "role": "sender", "timeout_round": 4, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779166541.109434, "event": "send", "role": "sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.109592, "event": "retransmit", "role": "sender", "timeout_round": 4, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779166541.110594, "event": "send", "role": "sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.110748, "event": "retransmit", "role": "sender", "timeout_round": 4, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779166541.11172, "event": "send", "role": "sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.111872, "event": "retransmit", "role": "sender", "timeout_round": 4, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779166541.112873, "event": "send", "role": "sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.11307, "event": "retransmit", "role": "sender", "timeout_round": 4, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779166541.114167, "event": "send", "role": "sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.114332, "event": "retransmit", "role": "sender", "timeout_round": 4, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779166541.730508, "event": "timeout", "role": "sender", "timeout_round": 5, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.61598}
+{"time": 1779166541.73106, "event": "send", "role": "sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.731265, "event": "retransmit", "role": "sender", "timeout_round": 5, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779166541.732301, "event": "send", "role": "sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.73247, "event": "retransmit", "role": "sender", "timeout_round": 5, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779166541.733467, "event": "send", "role": "sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.733624, "event": "retransmit", "role": "sender", "timeout_round": 5, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779166541.734625, "event": "send", "role": "sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.734811, "event": "retransmit", "role": "sender", "timeout_round": 5, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779166541.736099, "event": "send", "role": "sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.736273, "event": "retransmit", "role": "sender", "timeout_round": 5, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779166541.737273, "event": "send", "role": "sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.73743, "event": "retransmit", "role": "sender", "timeout_round": 5, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779166541.738457, "event": "send", "role": "sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.738643, "event": "retransmit", "role": "sender", "timeout_round": 5, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779166541.739621, "event": "send", "role": "sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166541.739774, "event": "retransmit", "role": "sender", "timeout_round": 5, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779166542.354721, "event": "timeout", "role": "sender", "timeout_round": 6, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.61473}
+{"time": 1779166542.355405, "event": "send", "role": "sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.355664, "event": "retransmit", "role": "sender", "timeout_round": 6, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779166542.3567, "event": "send", "role": "sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.35687, "event": "retransmit", "role": "sender", "timeout_round": 6, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779166542.358124, "event": "send", "role": "sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.358322, "event": "retransmit", "role": "sender", "timeout_round": 6, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779166542.359365, "event": "send", "role": "sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.359528, "event": "retransmit", "role": "sender", "timeout_round": 6, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779166542.360532, "event": "send", "role": "sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.360688, "event": "retransmit", "role": "sender", "timeout_round": 6, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779166542.361691, "event": "send", "role": "sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.361864, "event": "retransmit", "role": "sender", "timeout_round": 6, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779166542.362936, "event": "send", "role": "sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.363166, "event": "retransmit", "role": "sender", "timeout_round": 6, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779166542.364321, "event": "send", "role": "sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.364494, "event": "retransmit", "role": "sender", "timeout_round": 6, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779166542.979145, "event": "timeout", "role": "sender", "timeout_round": 7, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.614444}
+{"time": 1779166542.979952, "event": "send", "role": "sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.980293, "event": "retransmit", "role": "sender", "timeout_round": 7, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779166542.98133, "event": "send", "role": "sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.981492, "event": "retransmit", "role": "sender", "timeout_round": 7, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779166542.982499, "event": "send", "role": "sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.982658, "event": "retransmit", "role": "sender", "timeout_round": 7, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779166542.983643, "event": "send", "role": "sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.983795, "event": "retransmit", "role": "sender", "timeout_round": 7, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779166542.984777, "event": "send", "role": "sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.984976, "event": "retransmit", "role": "sender", "timeout_round": 7, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779166542.986214, "event": "send", "role": "sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.986381, "event": "retransmit", "role": "sender", "timeout_round": 7, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779166542.987373, "event": "send", "role": "sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.987529, "event": "retransmit", "role": "sender", "timeout_round": 7, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779166542.988505, "event": "send", "role": "sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166542.98868, "event": "retransmit", "role": "sender", "timeout_round": 7, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779166543.601331, "event": "timeout", "role": "sender", "timeout_round": 8, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.612433}
+{"time": 1779166543.601984, "event": "send", "role": "sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166543.602207, "event": "retransmit", "role": "sender", "timeout_round": 8, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779166543.603248, "event": "send", "role": "sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166543.603409, "event": "retransmit", "role": "sender", "timeout_round": 8, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779166543.604405, "event": "send", "role": "sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166543.604558, "event": "retransmit", "role": "sender", "timeout_round": 8, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779166543.605579, "event": "send", "role": "sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166543.605733, "event": "retransmit", "role": "sender", "timeout_round": 8, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779166543.606724, "event": "send", "role": "sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166543.606876, "event": "retransmit", "role": "sender", "timeout_round": 8, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779166543.608112, "event": "send", "role": "sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166543.608283, "event": "retransmit", "role": "sender", "timeout_round": 8, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779166543.609264, "event": "send", "role": "sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166543.609419, "event": "retransmit", "role": "sender", "timeout_round": 8, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779166543.610407, "event": "send", "role": "sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166543.610569, "event": "retransmit", "role": "sender", "timeout_round": 8, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779166544.225596, "event": "timeout", "role": "sender", "timeout_round": 9, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.614795}
+{"time": 1779166544.226157, "event": "send", "role": "sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.226387, "event": "retransmit", "role": "sender", "timeout_round": 9, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779166544.227451, "event": "send", "role": "sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.227625, "event": "retransmit", "role": "sender", "timeout_round": 9, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779166544.228735, "event": "send", "role": "sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.228907, "event": "retransmit", "role": "sender", "timeout_round": 9, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779166544.230321, "event": "send", "role": "sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.230578, "event": "retransmit", "role": "sender", "timeout_round": 9, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779166544.232039, "event": "send", "role": "sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.232227, "event": "retransmit", "role": "sender", "timeout_round": 9, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779166544.233245, "event": "send", "role": "sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.233403, "event": "retransmit", "role": "sender", "timeout_round": 9, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779166544.234393, "event": "send", "role": "sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.234549, "event": "retransmit", "role": "sender", "timeout_round": 9, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779166544.235896, "event": "send", "role": "sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.236094, "event": "retransmit", "role": "sender", "timeout_round": 9, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779166544.849948, "event": "timeout", "role": "sender", "timeout_round": 10, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.613633}
+{"time": 1779166544.85069, "event": "send", "role": "sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.850943, "event": "retransmit", "role": "sender", "timeout_round": 10, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779166544.852395, "event": "send", "role": "sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.852676, "event": "retransmit", "role": "sender", "timeout_round": 10, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779166544.854396, "event": "send", "role": "sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.854698, "event": "retransmit", "role": "sender", "timeout_round": 10, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779166544.856363, "event": "send", "role": "sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.856586, "event": "retransmit", "role": "sender", "timeout_round": 10, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779166544.858261, "event": "send", "role": "sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.858506, "event": "retransmit", "role": "sender", "timeout_round": 10, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779166544.8602, "event": "send", "role": "sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.860418, "event": "retransmit", "role": "sender", "timeout_round": 10, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779166544.862395, "event": "send", "role": "sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.862628, "event": "retransmit", "role": "sender", "timeout_round": 10, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779166544.863805, "event": "send", "role": "sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166544.863978, "event": "retransmit", "role": "sender", "timeout_round": 10, "seq": 8, "index": 7, "base_seq": 1}
+{"time": 1779166545.4723, "event": "timeout", "role": "sender", "timeout_round": 11, "base_index": 0, "base_seq": 1, "next_index": 8, "in_flight_count": 8, "waited_sec": 0.60805}
+{"time": 1779166545.472867, "event": "send", "role": "sender", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 93, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166545.473091, "event": "retransmit", "role": "sender", "timeout_round": 11, "seq": 1, "index": 0, "base_seq": 1}
+{"time": 1779166545.47436, "event": "send", "role": "sender", "pdu_type": 2, "seq": 2, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166545.474555, "event": "retransmit", "role": "sender", "timeout_round": 11, "seq": 2, "index": 1, "base_seq": 1}
+{"time": 1779166545.475573, "event": "send", "role": "sender", "pdu_type": 2, "seq": 3, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166545.475736, "event": "retransmit", "role": "sender", "timeout_round": 11, "seq": 3, "index": 2, "base_seq": 1}
+{"time": 1779166545.476721, "event": "send", "role": "sender", "pdu_type": 2, "seq": 4, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166545.476876, "event": "retransmit", "role": "sender", "timeout_round": 11, "seq": 4, "index": 3, "base_seq": 1}
+{"time": 1779166545.477868, "event": "send", "role": "sender", "pdu_type": 2, "seq": 5, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166545.478021, "event": "retransmit", "role": "sender", "timeout_round": 11, "seq": 5, "index": 4, "base_seq": 1}
+{"time": 1779166545.479025, "event": "send", "role": "sender", "pdu_type": 2, "seq": 6, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166545.479234, "event": "retransmit", "role": "sender", "timeout_round": 11, "seq": 6, "index": 5, "base_seq": 1}
+{"time": 1779166545.480388, "event": "send", "role": "sender", "pdu_type": 2, "seq": 7, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166545.480554, "event": "retransmit", "role": "sender", "timeout_round": 11, "seq": 7, "index": 6, "base_seq": 1}
+{"time": 1779166545.481532, "event": "send", "role": "sender", "pdu_type": 2, "seq": 8, "ack": 0, "data_len": 1024, "retransmission": true, "note": "timeout_retransmit"}
+{"time": 1779166545.481686, "event": "retransmit", "role": "sender", "timeout_round": 11, "seq": 8, "index": 7, "base_seq": 1}

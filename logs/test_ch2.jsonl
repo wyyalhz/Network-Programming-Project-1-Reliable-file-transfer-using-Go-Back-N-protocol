@@ -1,0 +1,4 @@
+{"time": 1779121064.647288, "event": "channel_started", "role": "channel"}
+{"time": 1779121064.647796, "event": "channel_thread_started", "role": "channel"}
+{"time": 1779121064.648048, "event": "recv", "role": "channel", "pdu_type": 1, "seq": 1, "ack": 0, "data_len": 5, "checksum_ok": true}
+{"time": 1779121064.648315, "event": "send", "role": "b", "pdu_type": 3, "seq": 0, "ack": 1, "data_len": 0, "retransmission": false, "note": ""}
